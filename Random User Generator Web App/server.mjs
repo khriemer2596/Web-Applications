@@ -7,15 +7,7 @@ const PORT = process.env.PORT
 const app = express();
 
 app.use(express.static('public'));
-// Note: Don't add or change anything above this line.
 
-
-/* Add your code below this line. It will:
-   Define variables for the middleware counting.
-   Count the calls.
-   Get the random person data.
-   Respond using an error handler middleware function when it doesn't work.
-*/
 const interval = 10
 let callCount = 0
 
@@ -41,8 +33,6 @@ app.use((err, req, res, next) => {
     res.send('500 - Server Error')
 })
 
-
-// Note: Don't add or change anything below this line.
 app.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}...`);
 });
