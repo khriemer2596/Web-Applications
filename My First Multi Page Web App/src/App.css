@@ -61,18 +61,9 @@
             http://nicolasgallagher.com/about-normalize-css/ 
           */
 
-          /* Component-specific stylesheets, if any 
-@import "component1.css";   
-          */
-
-/*   ----- Variables  -----  */
-/* :root { */
-  /* --custom-color-name: rgba(211, 211, 211, 0.349); */
-  /* --custom-embellishment-name: ; */
-/* } */ 
 
 /*  ----- Viewport ----- elements inherited by all remaining elements ----- */
-body {       /* Can alternatively define in html {} or :root {} */
+body {       
   color: rgba(10, 139, 5, 0.897);
   background-color: lightgray;
   font-family: 'Font Name', Arial;
@@ -81,14 +72,6 @@ body {       /* Can alternatively define in html {} or :root {} */
   margin: 4px;
   padding: 10px;
 }
-
-
-/* ----- Anchors ----- Text links */
-/*a {}
-a:link {}
-a:hover {}
-a:active {}
-a:visited {}*/
 
 /*  ----- Navigation ----- Override text links for navigation only.  */
 nav {
@@ -157,62 +140,7 @@ footer {
   margin: 2px;
   padding: 8px;
 }
-/*
-section {}
-  article {}
-    #topic1 {}
-    #topic2 {}
-    #gallery1 {}
-    #gallery2 {}
-div {}
-aside {}
-*/
 
-/*  -----  Typography  ----- */
-/*
-p {}
-br {}
-ol, ul, dl {}
-li {}
-dt {}
-dd {}
-*/
-/*
-h1, h2, h3, h4, h5, h6 {} /* Define consistant font family.*/
-/*
-h1 {}
-h2 {}
-h3 {}
-h4 {}
-h5 {}
-h6 {}
-abbr {}
-acronym {}
-address {}
-blockquote {}
-  q {}
-  cite {}
-em {}
-hr {}
-mark {}
-s {}
-span {}
-strong {}
-sub {}
-sup {}
-time {}
-*/
-
-/*  ----- Coding or instructional typography ----- */
-/*
-pre {}
-code {}
-kbd {}
-samp {}
-var {}
-del {} 
-ins {}
-*/
 /*  ----- Table ----- */
 table {
   border-collapse: collapse;
@@ -224,11 +152,7 @@ caption {
   border: 2px;
   padding: 2px;
 }
-/*
-thead {}
-tbody {}
-tfoot {}
-*/
+
 tr td {
   border-bottom: 2px solid black;
   padding: 4px;
@@ -239,14 +163,6 @@ tr th {
   padding: 4px;
   text-align: center;
 }
-/*  tr:nth-child(even) {} */
-/*
-th {}
-td {}
-colgroup {}
-data {}
-datalist {}
-*/
 
 /*  ----- Form ----- */
 /* form {} */
@@ -271,33 +187,6 @@ button {
   padding: 10px;
   cursor: pointer;
 }
-/*
-label {}
-  button {}
-  input {}
-  output {}
-  meter {}
-  progress {}
-  select {}
-    optgroup {}
-    option {}
-  textarea {}
-*/
-
-/* ----- Media ----- */
-/*
-figure {}
-  figcaption {}
-img {}
-svg {}
-picture {}
-  source {}
-iframe {}
-video {}
-audio {}
-embed {}
-object {}
-*/
 
 /*  ----- Classes for alignment, positioning, widths, grids, embellishments, and animation -----  */
 /*
