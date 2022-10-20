@@ -12,9 +12,6 @@ import HomePage from './pages/HomePage';
 import OrderPage from './pages/OrderPage';
 import StoresPage from './pages/StoresPage';
 
-
-
-
 function App() {  
 
   return (
