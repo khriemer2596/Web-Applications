@@ -1,0 +1,153 @@
+/* 
+This style sheet can be used for reference
+but not for an assignment.
+*/
+
+/* Center the body in the middle of the viewport 
+by defining min and max widths with auto right/left margins
+*/
+body {
+  margin:0 auto;
+  min-width:400px;
+  max-width:70%;
+  text-align:center;
+  background-color: rgb(41 50 66);
+  color: rgb(157, 162, 174);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:20px;
+  padding:2px;
+}
+
+/* PAGE LAYOUT 
+Consistant design for each page layout block. 
+*/
+main, article {
+  border-bottom:1px solid slategrey;
+  margin:0 auto;
+  min-width:400px;
+  max-width:70%;
+  text-align:center;
+  background-color: rgb(41 50 66);
+  color: rgb(164, 163, 161);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:16px;
+  padding:2px;
+}
+
+header {
+  border-bottom:1px solid white;
+  margin:0 auto;
+  min-width:400px;
+  max-width:70%;
+  text-align:center;
+  background-color: rgb(41 50 66);
+  color: rgb(157, 162, 174);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:16px;
+  padding:2px;
+}
+
+footer {
+  border-bottom:1px solid white;
+  margin:0 auto;
+  min-width:400px;
+  max-width:70%;
+  text-align:center;
+  background-color: rgb(41 50 66);
+  color: rgb(157, 162, 174);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:12px;
+  padding:2px;
+}
+
+/* NAVIGATION
+Simple changes to make anchors look like buttons. 
+*/
+nav {margin: 4px 0 0 0;}
+nav a {
+  text-decoration:green;
+  background-color: rgb(145, 104, 72);
+  padding:2px;
+  margin:4px;
+  color:rgb(179, 161, 136);
+  font-weight:bold;
+  border:2px;
+  font-size:16px;
+  vertical-align: middle;
+}
+/* Reverse the colors when hovering to give the user some interaction feedback.*/
+nav a:hover {
+  background-color: rgb(179, 161, 136);
+  color:rgb(145, 104, 72);
+}
+
+/* TABLE */
+table {
+  margin:0 auto;
+}
+caption {color:rgb(157, 162, 174);}
+tr td, td th {
+  border: 2px solid rgb(145, 104, 72);
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: rgb(179, 161, 136); color:rgb(145, 104, 72)}
+th {
+  font-weight:normal;
+  padding: 4px;
+  background-color: rgb(164, 163, 161);
+  color:rgb(41 50 66);
+}
+.DeleteButton:hover{
+  cursor: pointer;
+  color:whitesmoke;
+}
+.EditButton:hover{
+  cursor: pointer;
+  color:whitesmoke;
+}
+
+
+/* FORM */
+fieldset {
+  border:4px solid rgb(145, 104, 72);
+  margin-bottom: 8px;
+  font-size:16px;
+  padding:2px;
+}
+label {
+  display:block;
+  margin-top:10px;
+  font-size:16px;
+  padding:2px;
+}
+div {
+  margin-top:10px;
+  font-size:16px;
+  padding:2px;
+}
+input {
+  font-size:16px;
+  padding:2px;
+}
+select{
+  font-size:16px;
+  padding:2px;
+}
+button {
+  background-color: rgb(145, 104, 72);
+  color: rgb(179, 161, 136);
+  border:1px solid gray;
+  border-radius:2px;
+  font-size:16px;
+  padding:2px;
+}
+button:hover {
+  background-color: rgb(179, 161, 136);
+  color: rgb(145, 104, 72);
+  cursor: pointer;
+  font-size:16px;
+  padding:2px;
+  
+}
+
